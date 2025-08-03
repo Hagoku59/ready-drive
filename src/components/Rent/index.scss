@@ -1,0 +1,22 @@
+.category-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #0C0C0C;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card-body {
+    width: 100%;
+    background-color: #F0F2F5;
+    border: 0.5px solid #CBCFD5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+.card-status {
+    margin: 0;
+}
