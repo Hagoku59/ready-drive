@@ -1,5 +1,5 @@
 import { Col, Row, Space } from 'antd';
-import React, { useState } from 'react';
+import React from 'react';
 import Car from './../../assets/images/car-photo.png';
 import Calendar from './../../assets/images/calendar.png';
 import Maximize from './../../assets/images/maximize.png';
@@ -92,14 +92,6 @@ const InServiceData = [
     },   
 ];
 
-const Card = (item: any) => {
-    return (
-        <div className='card-body'>
-            <img src={item.image} />
-            <p className='card-status'>{item.status}</p>
-        </div>
-    )
-};
 
 const Rent = (): React.JSX.Element => {
 

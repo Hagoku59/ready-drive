@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 import Car from './../../assets/images/car.png';
 import Coin from './../../assets/images/coin.png';
