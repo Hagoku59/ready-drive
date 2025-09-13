@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Brotesk';
+  src: url('./assets/fonts/Brotesk-Semibold.woff') format('woff'),
+    url('./assets/fonts/Brotesk-Semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Manrope';
+}
+
+.car-details-drawer-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // position: relative;
+  padding: 40px;
+  background-color: #F0F2F5;
+}
+
+.car-details-drawer-header {
+  font-family: 'Brotesk';
+}
+
+.car-details-photos-main {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  // height: 100%;
+}
+
+.car-info-menu-title, .car-info-menu-title-selected {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+} 
+.car-info-menu-title {
+  color: #797C80;
+}
+
+.car-info-menu-title-selected {
+  color: #0C0C0C;
+}
+
+.car-info-menu-icon, .car-info-menu-icon-selected {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  
+}
+.car-info-menu-icon {
+  filter: invert(53%) sepia(7%) saturate(210%) hue-rotate(175deg) brightness(89%) contrast(90%);
+}
+
+.car-info-menu-icon-selected {
+  filter: invert(0%) sepia(85%) saturate(45%) hue-rotate(316deg) brightness(89%) contrast(91%); 
+}
+
+.info-menu-indicator, .info-menu-indicator-selected {
+  width: 70px;
+  height: 2px;
+  margin: 5px 0;
+}
+
+.info-menu-indicator {
+  background-color: none;
+}
+
+.info-menu-indicator-selected {
+  background-color: #0C0C0C;
+}
+
+.car-info-status-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0C0C0C;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.car-info-status-tag {
+  font-size: 12px;
+  font-weight: 800;
+  color: #FBFCFC;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.car-info-status-tag-add {
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #CBCFD5;
+  border-radius: 8px;
+  background-color: #F0F2F5;
+  color: #CBCFD5;
+}
+
+.car-info-status-apply-btn, .car-info-status-appoint-btn {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
+.car-info-status-person{
+  height: 48px;
+  // width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 16px;
+  background-color: #FBFCFC;
+  color: #0C0C0C;
+  padding: 0 10px;
+}
+
+.car-info-status-apply-btn {
+  background-color: #CCFF00;
+  color: #0C0C0C;
+}
+
+.car-info-status-appoint-btn {
+  // border-image: repeating-linear-gradient(0deg, var(--clr-border), var(--clr-border) 10px, transparent 10px, transparent 20px);
+  border: 1px dashed #CBCFD5;
+  color: #797C80;
+}
+
+.car-info-comment {
+  width: 100%;
+  max-height: 140px;
+  background-color: #FBFCFC;
+  border-radius: 8px;
+  // display: flex;
+  // flex-direction: column;
+  padding: 10px;
+}

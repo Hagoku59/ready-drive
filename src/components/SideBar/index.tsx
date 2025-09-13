@@ -17,11 +17,12 @@ export const SidebarData = [
     {
         title: 'Dashboard',
         path: '/dashboard',
-        icon: Dashboard
+        icon: Dashboard,
+        inactive: true,
     },
     {
         title: 'Rent & Booking',
-        path: '/',
+        path: '/rentandbooking',
         icon: Kanban
     },
     {

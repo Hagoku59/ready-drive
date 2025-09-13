@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Brotesk';
+  src: url('./assets/fonts/Brotesk-Semibold.woff') format('woff'),
+    url('./assets/fonts/Brotesk-Semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .category-title {
     font-size: 14px;
     font-weight: 700;
@@ -6,8 +14,13 @@
     text-transform: uppercase;
 }
 
+.rent-title {
+    font-family: 'Brotesk';
+}
+
 .card-body {
-    width: 100%;
+    // width: 100%;
+    max-width: 260px;
     background-color: #F0F2F5;
     border: 0.5px solid #CBCFD5;
     border-radius: 8px;
@@ -19,4 +32,18 @@
 
 .card-status {
     margin: 0;
+}
+
+.ant-drawer-header {
+    display: none !important;
+}
+
+.ant-drawer-body {
+    padding: 0 !important;
+    border-radius: 32px 0 0 32px !important;
+}
+
+.ant-drawer-content-wrapper {
+    padding: 0 !important;
+    border-radius: 32px 0 0 32px !important;
 }
